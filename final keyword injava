@@ -1,0 +1,43 @@
+/**final key word can be use with classes,methods,variables
+*classes-----> to avoid inheritence.
+*methods----->to prevent overriding.
+*variables--->keep constant value.
+class a
+{
+    final void show()
+    {
+    System.out.println("calss a");
+    }
+}
+class b extends a{
+     void show()
+    {
+   System.out.println("calss b");
+    }
+}
+
+
+
+public class final_key {
+    
+    public static void main(String args[])
+    { 
+       /**
+        * //final with avriable
+
+        * final int a=10
+       final_key f=new final_key();
+       f.a=30;
+       System.out.println(f.a);
+       */
+      System.out.println("---------");
+      
+       b f=new b();
+        System.out.println(f.show());
+    
+       
+}
+
+    }
+    
+
